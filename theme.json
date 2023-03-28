@@ -1,0 +1,83 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "layout": {
+      "contentSize": "800px",
+      "wideSize": "1183px"
+    },
+    "color": {
+      "palette": [
+        {
+          "slug": "lepays-black",
+          "color": "#131313",
+          "name": "Noir"
+        },
+        {
+          "slug": "lepays-gray",
+          "color": "#888888",
+          "name": "Gris"
+        },
+        {
+          "slug": "lepays-white",
+          "color": "#F7F7F7",
+          "name": "Blanc"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "'Open Sans', sans-serif",
+          "slug": "opensans",
+          "name": "Body - Open Sans",
+          "fontFace": [
+            {
+              "fontFamily": "'Open Sans', sans-serif",
+              "fontWeight": "300",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/OpenSans-Light.ttf"]
+            },
+            {
+              "fontFamily": "'Open Sans', sans-serif",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": ["file:./assets/fonts/OpenSans-Regular.ttf"]
+            }
+          ]
+        },
+        {
+          "fontFamily": "'Source Sans Pro', sans-serif",
+          "slug": "sourcesanspro",
+          "name": "Headings - Source Sans Pro"
+        }
+      ]
+    },
+    "custom": {
+      "typography": {
+        "font-size": {
+          "heading-1": "52px"
+        }
+      }
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--opensans)",
+      "lineHeight": "1.75",
+      "fontSize": "1rem"
+    },
+    "elements": {
+      "h1": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--sourcesanspro)",
+          "fontWeight": "800",
+          "lineHeight": "1.3",
+          "fontSize": "var(--wp--custom--typography--font-size--heading-1)"
+        }
+      }
+    }
+  }
+}
