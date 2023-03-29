@@ -23,3 +23,15 @@ Use it to make something cool, have fun, and share what you've learned with othe
     padding-left: 16px;
     padding-right: 16px;
 }
+
+/* Sidebar Catégorie */
+
+.category_sidebar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.category_sidebar li {
+    padding-bottom: 10px;
+}

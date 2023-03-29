@@ -163,11 +163,18 @@
       },
       "link": {
         "color": {
-            "text": "var(--wp--preset--color--lepays-black)"
+          "text": "var(--wp--preset--color--lepays-black)"
         }
       }
     },
     "blocks": {
+      "core/latest-posts": {
+        "spacing": {
+          "padding": {
+            "bottom": "20px"
+          }
+        }
+      },
       "core/button": {
         "border": {
           "color": "currentColor",
