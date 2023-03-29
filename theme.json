@@ -168,6 +168,12 @@
       }
     },
     "blocks": {
+      "core/query": {
+        "color": {
+          "text": "var()"
+        }
+      },
+
       "core/latest-posts": {
         "spacing": {
           "padding": {
