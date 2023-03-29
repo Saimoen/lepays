@@ -160,6 +160,11 @@
           "lineHeight": "var(--wp--custom--line-height--small)",
           "fontSize": "var(--wp--custom--typography--font-size--heading-6)"
         }
+      },
+      "link": {
+        "color": {
+            "text": "var(--wp--preset--color--lepays-black)"
+        }
       }
     },
     "blocks": {

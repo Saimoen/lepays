@@ -35,3 +35,11 @@ function lepays_styles() {
 }
 endif;
 add_action( 'wp_enqueue_scripts', 'lepays_styles' );
+
+/*--------------------------------------------------------
+Filters the maximum number of words in a post excerpt.
+----------------------------------------------------------*/
+function custom_excerpt_lenght($length) {
+	return 40;
+}
+add_filter('excerpt_length', 'custom_excerpt_lenght');

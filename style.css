@@ -18,3 +18,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+:where(.wp-block-group.has-background) {
+    padding-left: 16px;
+    padding-right: 16px;
+}
