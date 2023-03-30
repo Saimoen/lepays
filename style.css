@@ -35,3 +35,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .category_sidebar li {
     padding-bottom: 10px;
 }
+
+/* Fixe les icones en mobile */
+
+.post-information .wp-block-image {
+    line-height: 0
+}
